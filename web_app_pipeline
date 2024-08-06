@@ -30,7 +30,7 @@ pipeline {
      stage ('shell') {
       steps {
         sh 'sh function.sh'
-	sh 'ls -la'
+	sh 'ls -l'
       }
     }
   }
