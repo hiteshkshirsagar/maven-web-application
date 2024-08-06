@@ -23,6 +23,7 @@ pipeline {
 	stage ('deploy') {
       steps {
         sh 'cp -r /root/.jenkins/workspace/weapp_pipeline@2/target/maven-web-application.war /root/apache-tomcat-9.0.91/webapps'
+	sh 'ls'
       }
     }
   }
