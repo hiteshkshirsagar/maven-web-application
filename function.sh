@@ -7,6 +7,7 @@ hello(){
   b=$2
 
   total= `expr $a +$b`
+  echo "a+b is:$total"
 }
 
 ##calling function helolo
