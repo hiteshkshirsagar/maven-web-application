@@ -6,7 +6,7 @@ hello(){
   a=$1
   b=$2
 
-  total= 'expr $a +$b'
+  total= `expr $a +$b`
 }
 
 ##calling function helolo
